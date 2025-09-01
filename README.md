@@ -1,13 +1,13 @@
-Project Overview
-
+**Project Overview
+**
 This project predicts the amount a customer will spend on purchasing a car based on demographic and financial data. Multiple regression models and a neural network are implemented and compared, including Linear Regression, OLS Regression, Random Forest Regressor, and Artificial Neural Network (ANN). The goal is to evaluate model performance and identify the most effective approach for predictive analytics in the automotive sales domain.
 
-Tech Stack
-
+**Tech Stack
+**
 Language: Python 3.x
 
-Libraries:
-
+**Libraries:
+**
 Data Handling: pandas, numpy
 
 Preprocessing: scikit-learn (StandardScaler, LabelEncoder, train_test_split)
@@ -16,11 +16,11 @@ Modeling: scikit-learn (LinearRegression, RandomForestRegressor), statsmodels (O
 
 Visualization: matplotlib, seaborn
 
-Dataset Description
-
+**Dataset Description
+**
 The dataset contains customer demographic and financial attributes.
 
-Columns (example):
+Columns :
 
 Customer Name – identifier (dropped)
 
@@ -40,8 +40,8 @@ Net Worth – numeric feature
 
 Car Purchase Amount – Target variable
 
-Project Workflow
-
+**Project Workflow
+**
 Data Preprocessing
 
 Load dataset using pandas (Latin-1 encoding for special characters).
@@ -70,8 +70,8 @@ Random Forest Regressor – ensemble model for non-linear patterns.
 
 Artificial Neural Network (Keras/TensorFlow) – deep learning approach with 3 hidden layers (256-128-64, ReLU activation, Adam optimizer).
 
-Evaluation Metrics
-
+**Evaluation Metrics
+**
 R² Score
 
 MAE (Mean Absolute Error)
